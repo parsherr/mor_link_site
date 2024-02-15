@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parsher</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('images/purple.jpg');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: rgba(163, 83, 224, 0.353);
+            /*backdrop-filter: blur(2px);*/
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #464646;
+        }
+
+        .description {
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        .links li {
+            margin-bottom: 15px;
+        }
+
+        .links a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            padding: 15px 20px;
+            border-radius: 30px;
+            background-color: #7e32e2;
+            display: inline-block;
+            transition: transform 0.3s ease; /* transform özelliği için geçiş efekti */
+        }
+
+        .links a:hover {
+            background-color: #44145a;
+            transform: scale(1.15); /* Maus üstüne gelindiğinde butonun boyutunu büyüt */
+        }
+    </style>
+    <!-- Site faviconu -->
+        <link rel="icon" href="images/favicon.ico" type="image/ico">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/jpg">
+</head>
+<body>
+    <div class="container">
+        <img class="profile-image" src="images/keddy.jpg" alt="Profil Resminiz">
+
+        <h1>Parsher</h1>
+        <p class="description">Bu bir açıklama metni.<br> Buraya kendi açıklamanızı yazın.</p>
+
+        <ul class="links">
+            <li><a href="https://www.youtube.com/@parsher_">Youtube</a></li>
+            <li><a href="https://www.discord.gg/bdfd">Discord</a></li>
+            <li><a href="https://www.github.com/parsherr">Github</a></li>
+            <li><a href="https://www.linktr.ee/parsher">Parsher</a></li>
+            <!-- Dilediğiniz kadar bağlantı ekleyebilirsiniz -->
+        </ul>
+    </div>
+</body>
+</html>
