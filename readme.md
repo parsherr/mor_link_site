@@ -5,7 +5,7 @@
 
 ## 📖 Hakkında
 
-mor_link_site, modern ve kullanıcı dostu bir uygulama oluşturmak için tasarlanmış bir discord bot sitesidir.
+mor_link_site, modern ve kullanıcı, herkesin düzenleyebilmesi için olabildiğince basit yazılmış temel bir sitesidir.
 
 ## 🚀 Özellikler
 
